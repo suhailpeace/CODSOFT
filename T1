@@ -7,9 +7,9 @@ def chatbot(user_input):
     if "hi" in user_input or "hello" in user_input:
         return "Hi there! I'm a chatbot here to assist you."
     elif "what is your name" in user_input:
-        return "I'm just a chatbot, so I don't have a name, but you can call me anything."
+        return "My name is Zephyrus."
     elif "where are you from" in user_input:
-        return "I'm from the digital world, always ready to chat!"
+        return "I'm from the digital world, and i am here to take over your world!"
     elif "how are you" in user_input:
         return "I'm fine ."
     elif "do you have any hobbies" in user_input or "interests" in user_input:
@@ -47,4 +47,4 @@ while True:
         break  
     
     response = chatbot(user_input)  
-    print("Chatbot:", response) 
+    print("Chatbot:", response)
